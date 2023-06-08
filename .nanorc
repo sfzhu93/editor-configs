@@ -1,0 +1,16 @@
+set linenumbers
+set tabsize 2
+set tabstospaces
+set numbercolor yellow,normal
+set zap
+bind ^C copy main
+bind ^V paste main
+bind ^X cut main
+bind ^Z undo main
+bind ^Y redo main
+bind ^Q exit main
+bind ^/ comment main
+bind ^S savefile main
+#bind ^M yes yesno
+set mouse
+
